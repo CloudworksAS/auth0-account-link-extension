@@ -1,7 +1,8 @@
 {
   "title": "Auth0 Account Link orgsupport",
   "name": "auth0-account-link-orgsupport",
-  "version": "2.8.0",
+  "version": "2.7.0",
+  "preVersion": "2.7.0",
   "author": "auth0 (organization support by Cloudworks AS)",
   "description":
     "This extension gives Auth0 customers the ability to allow their users to link their accounts. This version supports organizations.",
@@ -19,6 +20,9 @@
   },
   "auth0": {
     "createClient": true,
+    "onUninstallPath": "/.extensions/on-uninstall",
+    "onInstallPath": "/.extensions/on-install",
+    "onUpdatePath": "/.extensions/on-install",
     "scopes":
       "read:connections read:users read:rules create:rules update:rules delete:rules delete:clients"
   }
