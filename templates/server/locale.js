@@ -23,7 +23,7 @@ module.exports = ({ stylesheetTag, baseURL }) => `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <base href="${baseURL}"/>
-    <title>Auth0 Account Linking Extension Administrator</title>
+    <title>Auth0 Account Linking Extension Administrator - with organization support</title>
     <link rel="stylesheet" href="https://cdn.auth0.com/styleguide/core/2.0.5/core.min.css" />
     <link rel="stylesheet" href="https://cdn.auth0.com/styleguide/components/2.0.0/components.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/codemirror.min.css">
@@ -51,8 +51,8 @@ ${header(baseURL)}
                 </div>
             </div>
         </div>
-        
-        
+
+
         <div class="col-sm-8" id="locale-detail">
             <h2 id="locale-title"></h2>
 
@@ -62,9 +62,9 @@ ${header(baseURL)}
             </table>
 
             <button id="locale-management-submit" class="btn btn-primary">Save changes</button>
-            
+
             <hr/>
-            
+
             <div class="panel panel-danger">
                 <div class="panel-heading">Remove locale</div>
                 <div class="panel-body">
