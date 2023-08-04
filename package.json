@@ -1,6 +1,6 @@
 {
   "name": "auth0-account-link-extension-orgsupport",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "description": "Auth0 Account Link Extension - with organization support",
   "main": "index.js",
   "engines": {
@@ -17,7 +17,7 @@
     "extension:build": "a0-ext build:server ./webtask.js ./dist && cp ./dist/auth0-account-link-extension-orgsupport.extension.$npm_package_version.js ./build/bundle.js",
     "build": "yarn run client:build && yarn run extension:build"
   },
-  "author": "Auth0",
+  "author": "Auth0 (org support by Cloudworks AS)",
   "license": "MIT",
   "auth0-extension": {
     "nodeTarget": "4.2.0",
