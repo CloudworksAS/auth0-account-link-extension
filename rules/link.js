@@ -149,7 +149,7 @@ module.exports = ({ extensionURL = '', username = 'Unknown', clientID = '', clie
 
   function promptUser() {
     return searchUsersWithSameEmail().then(function transformUsers(users) {
-      
+
       return users.filter(function(u) {
         return u.user_id !== user.user_id;
       }).map(function(user) {
@@ -221,7 +221,8 @@ module.exports = ({ extensionURL = '', username = 'Unknown', clientID = '', clie
       auth0Client: q.auth0Client,
       original_state: q.original_state || q.state,
       nonce: q.nonce,
-      error_type: errorType
+      error_type: errorType,
+      organization: q.organization
     };
 
     return config.endpoints.linking + '?' + queryString.encode(params);
