@@ -1,14 +1,13 @@
 {
-  "title": "Auth0 Account Link - with support for organizations",
+  "title": "Auth0 Account Link orgsupport",
   "name": "auth0-account-link-orgsupport",
   "version": "2.6.5",
-  "preVersion": "2.6.3",
+  "preVersion": "2.6.5",
   "author": "auth0 (organization support by Cloudworks AS)",
   "description":
     "This extension gives Auth0 customers the ability to allow their users to link their accounts. This version supports organizations.",
   "type": "application",
-  "logoUrl": "https://cdn.auth0.com/extensions/auth0-authz/assets/logo.svg",
-  "docsUrl": "https://auth0.com/docs/extensions/account-link",
+  "logoUrl": "https://cdn2.hubspot.net/hubfs/7526128/CW_favicon.png",  
   "initialUrlPath": "/login",
   "repository": "https://github.com/CloudworksAS/auth0-account-link-extension",
   "keywords": ["auth0", "extension", "account-link"],
