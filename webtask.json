@@ -1,6 +1,6 @@
 {
-  "title": "Auth0 Account Link orgsupport",
-  "name": "auth0-account-link-orgsupport",
+  "title": "A0 Account Link",
+  "name": "a0-account-link-extension",
   "version": "2.7.0",
   "preVersion": "2.7.0",
   "author": "auth0 (organization support by Cloudworks AS)",
@@ -9,7 +9,7 @@
   "type": "application",
   "logoUrl": "https://cdn2.hubspot.net/hubfs/7526128/CW_favicon.png",
   "initialUrlPath": "/login",
-  "repository": "https://github.com/CloudworksAS/auth0-account-link-extension",
+  "repository": "https://github.com/CloudworksAS/a0-account-link-extension",
   "keywords": ["auth0", "extension", "account-link"],
   "secrets": {
     "CUSTOM_CSS": {
